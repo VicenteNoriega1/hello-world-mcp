@@ -1,0 +1,16 @@
+{
+  "id": "hello-world-mcp-simple",
+  "name": "Hello World MCP (Simple)",
+  "description": "A minimal Hello World ChatGPT App (MCP) example for beginners.",
+  "version": "0.0.1",
+  "author": {
+    "name": "You"
+  },
+  "endpoints": {
+    "handler": "/apps"
+  },
+  "permissions": ["chat"],
+  "ui": {
+    "homepage": "/"
+  }
+}
