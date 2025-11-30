@@ -1,0 +1,27 @@
+{
+  "name": "hello-world-mcp",
+  "version": "1.0.0",
+  "description": "Minimal ChatGPT app using OpenAI SDK and Model Context Protocol (MCP)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "client": "node chatgpt-client.js",
+    "mcp-server": "node mcp-server.js",
+    "web": "node web-server.js"
+  },
+  "keywords": [
+    "openai",
+    "chatgpt",
+    "mcp",
+    "model-context-protocol"
+  ],
+  "author": "Vicente Noriega",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.2",
+    "openai": "^4.52.0"
+  }
+}
